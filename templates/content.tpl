@@ -1,5 +1,6 @@
 <div class="container-fluid b2">
-    <h1>Тесты:</h1>
+	<br>
+    <h2 class="dzh2">Тесты</h2>
     <ul>
     {% for test in tests %}
         <li><a href="?id={{ test.id }}">{{ test.name }}</a></li>
